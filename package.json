@@ -1,0 +1,23 @@
+{
+  "name": "node-mango-oauth",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "babel-watch": "babel src -d www --watch"
+  },
+  "author": "Mathieu Rodrigues",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "next": "^4.1.4",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
