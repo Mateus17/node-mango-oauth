@@ -9,14 +9,18 @@
   "author": "Mathieu Rodrigues",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "mongodb": "^2.2.33",
     "next": "^4.1.4",
     "nodemon": "^1.12.1",
     "passport": "^0.4.0",
-    "path": "^0.12.7"
+    "passport-local": "^1.0.0",
+    "passport-strategy": "^1.0.0",
+    "path": "^0.12.7",
+    "pause": "^0.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
